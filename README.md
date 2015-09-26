@@ -12,6 +12,7 @@ var events = new Sharpy.EventManager();
 
 Now you can add some handlers
 >Note: First parameter is your event name, and second is the callback
+
 ```c#
 events.On("MyEvent", (e) => {
     // MyHandler
@@ -20,6 +21,7 @@ events.On("MyEvent", (e) => {
 
 After some time, and some calculations you can trigger your event
 >Note: There may be multiple event handlers on single event
+
 ```c#
 events.Trigger("MyEvent");
 ```
