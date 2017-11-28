@@ -1,4 +1,4 @@
-#Sharpy
+# Sharpy
 
 C# custom event handling library, useful for creating various hooks, creating modular/plugin systems, etc.
 
